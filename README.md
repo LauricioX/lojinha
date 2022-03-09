@@ -1,0 +1,2 @@
+# lojinha
+projeto lojinha
