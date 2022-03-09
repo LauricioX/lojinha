@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+header{
+    width: 100vw;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+
+
+}
+
+main{
+    padding: 10px;
+    text-align: center;
+
+}
+.lineInput{
+    width: 100%;
+ 
+ border: 1px solid white;   display: flex;
+    flex-direction: column;
+
+}
+
+.lineInput input{
+    width: 100%;
+    height: 30px;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 1.4rem;
+
+}
+
+.lineInput label{
+    padding: 4px;
+    font-size: 1.4rem;
+ color: white;
+ text-align: left;    
+}
+
+.card{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    max-width: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.btn__cont{
+    display: flex;
+    gap: 10px;
+}
+
+.btn__style{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(109, 5, 179);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: .3s;
+
+    
+}
+
+.btn__style:hover{
+    background-color: blueviolet;
+}
+
+.table{
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    max-width: 300px;
+    background-color: slateblue;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    border-collapse: collapse;
+
+}
+.icon{
+    width: 16px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+table tbody tr td{
+    padding: 2px;
+}
+table thead th{
+    padding: 2px;
+}
+
